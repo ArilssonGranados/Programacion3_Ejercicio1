@@ -39,12 +39,14 @@ namespace Programacion3_Ejercicio1
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 52);
+            this.textBox1.Location = new System.Drawing.Point(153, 57);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(281, 20);
             this.textBox1.TabIndex = 0;
@@ -52,7 +54,7 @@ namespace Programacion3_Ejercicio1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 88);
+            this.textBox2.Location = new System.Drawing.Point(153, 93);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 1;
@@ -60,7 +62,7 @@ namespace Programacion3_Ejercicio1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 55);
+            this.label1.Location = new System.Drawing.Point(49, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 2;
@@ -69,7 +71,7 @@ namespace Programacion3_Ejercicio1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 91);
+            this.label2.Location = new System.Drawing.Point(60, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 3;
@@ -78,14 +80,14 @@ namespace Programacion3_Ejercicio1
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(116, 155);
+            this.comboBox1.Location = new System.Drawing.Point(153, 160);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(281, 21);
             this.comboBox1.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(54, 232);
+            this.button1.Location = new System.Drawing.Point(184, 213);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 39);
             this.button1.TabIndex = 7;
@@ -95,7 +97,7 @@ namespace Programacion3_Ejercicio1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(183, 232);
+            this.button2.Location = new System.Drawing.Point(313, 213);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 39);
             this.button2.TabIndex = 8;
@@ -105,7 +107,7 @@ namespace Programacion3_Ejercicio1
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(309, 232);
+            this.button3.Location = new System.Drawing.Point(248, 258);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 39);
             this.button3.TabIndex = 9;
@@ -117,11 +119,33 @@ namespace Programacion3_Ejercicio1
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(469, 129);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(100, 39);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Ordenar de forma Ascendente";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(469, 174);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(100, 39);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "Ordenar de forma Descendente";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 309);
+            this.ClientSize = new System.Drawing.Size(581, 309);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -149,6 +173,8 @@ namespace Programacion3_Ejercicio1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }
 
